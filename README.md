@@ -76,14 +76,30 @@ pip install -r requirements.txt
 
 ### 3. Run the credit scoring script:
 
+🚀 Usage
+To run the credit scorer script:
+
 ```bash
-python wallet_credit_scorer.py
+path/to/wallet_credit_scorer.py
+```
+Replace path/to/ with the actual path on your system. For example:
+
+```bash
+wallet_credit_scorer.py
+```
+or
+```bash
+C:/Users/YourName/Downloads/wallet-credit-scorer/wallet_credit_scorer.py
+```
+
+```bash
+wallet_credit_scorer.py
 ```
 
 ### 4. Optional: Visualize the score distribution:
 
 ```bash
-python analysis.py
+analysis.py
 ```
 
 
