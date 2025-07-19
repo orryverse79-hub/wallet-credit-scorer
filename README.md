@@ -123,6 +123,8 @@ Transparent formula with interpretable metrics
 
 Future potential for XAI (explainable AI) integration
 
+📝 Additional Note:-
+⚠️ Note: Output visualizations such as score distribution plots are dynamically generated when running the Python scripts. These figures are not pre-saved in the repository to keep it clean and light. You can reproduce all outputs by running wallet_credit_scorer.py and other included scripts as described in the README.
 
 
 
