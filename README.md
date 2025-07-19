@@ -9,14 +9,23 @@ This project builds a **wallet-level credit scoring system** using DeFi transact
 wallet-credit-scorer/
 ├── data/
 │   └── user-wallet-transactions.json                                  # Raw DeFi transaction data (input)
+
 ├── outputs/
+
 │   ├── credit_scores.csv                                              # Scores for all wallets
+
 │   ├── top_wallets.csv                                                # Top 10 highest-scoring wallets
+
 │   └── score_distribution.png/score_distribution2.png                 # Histogram of credit score distribution
+
 ├── wallet_credit_scorer.py                                            # Main credit score generator
+
 ├── analysis.py                                                        # Visualization and EDA
+
 ├── requirements.txt                                                   # Dependencies
+
 └── README.md                                                          # This file
+
 
 ---
 
@@ -55,23 +64,28 @@ The exact weights are designed to reward consistent repayments, responsible coll
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/wallet-credit-scorer.git
+git clone https://github.com/orryverse79-hub/wallet-credit-scorer.git
 cd wallet-credit-scorer
-
+```
 
 ### 2. Install dependencies:
 
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 3. Run the credit scoring script:
 
+```bash
 python wallet_credit_scorer.py
-
+```
 
 ### 4. Optional: Visualize the score distribution:
 
+```bash
 python analysis.py
+```
+
 
 
 📊 Sample Visual Output
