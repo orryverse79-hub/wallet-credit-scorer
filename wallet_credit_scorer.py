@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 # Load the data
-with open("C:/Users/Mr. Aditya/Downloads/user-wallet-transactions.json", "r") as f:
+with open("ENTER/THE/FILE/PATH TO/user-wallet-transactions.json", "r") as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
